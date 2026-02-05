@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, reactive, ref, watch } from 'vue'
+import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import { ITEMS } from './data/mcu'
 
 type Kind = typeof ITEMS[number]['kind']
@@ -7,6 +7,13 @@ type Kind = typeof ITEMS[number]['kind']
 const theme = ref<'dark'|'light'>('dark')
 const view = ref<'cards'|'timeline'|'release'>('timeline')
 const showFilters = ref(false)
+const expandedChars = ref(new Set<string>())
+
+function isExpanded(id:string){ return expandedChars.value.has(id) }
+function toggleExpanded(id:string){
+  if(expandedChars.value.has(id)) expandedChars.value.delete(id)
+  else expandedChars.value.add(id)
+}
 
 const state = reactive({
   q: '',
@@ -58,7 +65,7 @@ const filtered = computed(() => {
 const sorted = computed(() => {
   const arr = filtered.value.slice()
   if(view.value === 'release') arr.sort((a,b) => (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)))
-  else arr.sort((a,b) => (a.timelineSort - b.timelineSort) || (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)))
+  else arr.sort((a,b) => (a.timelineOrder - b.timelineOrder) || (a.timelineYear - b.timelineYear) || (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title))))
   return arr
 })
 
@@ -77,7 +84,37 @@ function resetAll(){
 
 function setTheme(t:'dark'|'light'){ theme.value = t }
 
+
+const timelineWrap = ref<HTMLElement|null>(null)
+const timelineNodes = ref<{id:string, y:number}[]>([])
+let ro: ResizeObserver | null = null
+
+function computeTimelineNodes(){
+  const wrap = timelineWrap.value
+  if(!wrap) return
+  const rows = Array.from(wrap.querySelectorAll<HTMLElement>('.tItem'))
+  const nodes = rows.map(r => {
+    const id = r.getAttribute('data-id') || ''
+    const line = r.querySelector<HTMLElement>('.tLine')
+    const node = r.querySelector<HTMLElement>('.tNode')
+    if(!line || !node) return {id, y: r.offsetTop + 20}
+    // y relative to wrap
+    const y = r.offsetTop + (node.offsetTop + node.offsetHeight/2)
+    return {id, y}
+  }).filter(n => n.id)
+  timelineNodes.value = nodes
+}
+
+watch([view, () => sorted.value.length], async () => {
+  // next tick-ish
+  setTimeout(() => {
+    computeTimelineNodes()
+  }, 0)
+})
 onMounted(() => {
+  ro = new ResizeObserver(() => computeTimelineNodes())
+  if(timelineWrap.value) ro.observe(timelineWrap.value)
+
   document.documentElement.dataset.theme = theme.value
   // Start typing anywhere focuses search (accessibility: ignore when typing in inputs)
   window.addEventListener('keydown', (e) => {
@@ -95,6 +132,8 @@ onMounted(() => {
     }
   }, { passive: false })
 })
+
+onUnmounted(() => { if(ro && timelineWrap.value) ro.unobserve(timelineWrap.value) })
 
 watch(theme, (t) => {
   document.documentElement.dataset.theme = t
@@ -143,15 +182,34 @@ watch(theme, (t) => {
       {{ sorted.length }} item(s) shown • {{ ITEMS.length }} total in dataset
     </div>
 
-    <div v-if="view === 'timeline'" class="timelineList">
-      <div class="tItem" v-for="it in sorted" :key="it.id">
+    <div v-if="view === 'timeline'" class="timelineList" ref="timelineWrap">
+  <svg class="branchSvg" :style="{height: (timelineWrap?.scrollHeight||0) + 'px'}" aria-hidden="true">
+    <defs>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.2" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <linearGradient id="flow" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+        <stop offset="50%" stop-color="rgba(255,255,255,0.95)"/>
+        <stop offset="100%" stop-color="rgba(255,255,255,0.15)"/>
+      </linearGradient>
+    </defs>
+    <path class="branchPath" :d="`M 50 0 C 54 120, 46 240, 50 360 S 54 720, 50 ${timelineWrap?.scrollHeight||0}`" />
+    <path class="branchFlow" :d="`M 50 0 C 54 120, 46 240, 50 360 S 54 720, 50 ${timelineWrap?.scrollHeight||0}`" />
+    <circle v-for="n in timelineNodes" :key="n.id" class="branchNode" :cx="50" :cy="n.y" r="6" />
+  </svg>
+      <div class="tItem" v-for="it in sorted" :key="it.id" :data-id="it.id">
         <div class="tDate">
-          <div>{{ it.timeline }}</div>
+          <div>{{ it.timelineYear }}</div>
           <small>{{ it.kind }}</small>
         </div>
 
         <div class="tLine" aria-hidden="true">
-          <div class="tRail"></div>
+          <div class="tRail" style="opacity:0"></div>
           <div class="tNode"></div>
         </div>
 
@@ -183,12 +241,12 @@ watch(theme, (t) => {
           </div>
 
           <div class="characters">
-            <span v-for="c in it.characters.slice(0,18)" :key="it.id+c"
+            <span v-for="c in isExpanded(it.id) ? it.characters : it.characters.slice(0,18)" :key="it.id+c"
               class="chip" :class="{active: state.chars.has(c)}"
               @click="chipToggleCharacter(c)" role="button" tabindex="0">
               {{ c }}
             </span>
-            <span v-if="it.characters.length > 18" class="small">+ {{ it.characters.length - 18 }} more</span>
+            <span v-if="<span v-if="it.characters.length > 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
           </div>
         </div>
       </div>
@@ -207,9 +265,9 @@ watch(theme, (t) => {
         </div>
         <div class="syn">{{ it.synopsis }}</div>
         <div class="characters">
-          <span v-for="c in it.characters.slice(0,16)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}"
+          <span v-for="c in isExpanded(it.id) ? it.characters : it.characters.slice(0,16)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}"
             @click="chipToggleCharacter(c)">{{ c }}</span>
-          <span v-if="it.characters.length > 16" class="small">+ {{ it.characters.length - 16 }} more</span>
+          <span v-if="it.characters.length > 16" class="small">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 16) + ' more' }}</span>
         </div>
       </div>
     </div>
@@ -227,9 +285,9 @@ watch(theme, (t) => {
         </div>
         <div class="syn">{{ it.synopsis }}</div>
         <div class="characters">
-          <span v-for="c in it.characters.slice(0,16)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}"
+          <span v-for="c in isExpanded(it.id) ? it.characters : it.characters.slice(0,16)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}"
             @click="chipToggleCharacter(c)">{{ c }}</span>
-          <span v-if="it.characters.length > 16" class="small">+ {{ it.characters.length - 16 }} more</span>
+          <span v-if="it.characters.length > 16" class="small">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 16) + ' more' }}</span>
         </div>
       </div>
     </div>

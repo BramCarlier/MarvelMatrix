@@ -79,17 +79,9 @@
 
     const sorted = computed(() => {
         const arr = filtered.value.slice()
-        if (view.value === 'release') {
-            arr.sort((a, b) => (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)));
-        } else {
-            arr.sort((a, b) =>
-                (a.timelineOrder - b.timelineOrder) ||
-                (a.timelineYear - b.timelineYear) ||
-                (a.releaseYear - b.releaseYear) ||
-                a.title.localeCompare(b.title)
-            );
-        }
-        return arr;
+        if (view.value === 'release') arr.sort((a, b) => (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)))
+        else arr.sort((a, b) => (a.timelineOrder - b.timelineOrder) || (a.timelineYear - b.timelineYear) || (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)));
+        return arr
     })
 
     function chipToggleCharacter(c: string) {
@@ -188,11 +180,6 @@
             </div>
 
             <div class="toolbar">
-                <select class="select" v-model="theme" aria-label="Theme">
-                    <option value="dark">Dark</option>
-                    <option value="light">Light</option>
-                </select>
-
                 <select class="select" v-model="view" aria-label="View">
                     <option value="timeline">Timeline (story order)</option>
                     <option value="release">Release (by year)</option>
@@ -243,7 +230,7 @@
             </svg>
             <div class="tItem" v-for="it in sorted" :key="it.id" :data-id="it.id">
                 <div class="tDate">
-                    <div>{{ it.timelineYear }}</div>
+                    <div>{{ primaryYear(it) }}</div>
                     <small>{{ it.kind }}</small>
                 </div>
 
@@ -255,7 +242,7 @@
                 <div class="card">
                     <div class="cardHeader">
                         <h3>{{ it.title }}</h3>
-                        <div class="yearBadge"> {{ it.releaseYear }} </div>
+                        <div class="yearBadge" v-if="view==='release'"> {{ it.releaseYear }} </div>
                     </div>
 
                     <div class="meta">
@@ -282,7 +269,7 @@
                         <span v-for="c in isExpanded(it.id) ? it.characters : it.characters.slice(0,18)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}" @click="chipToggleCharacter(c)" role="button" tabindex="0">
                             {{ c }}
                         </span>
-                        <span v-if="it.characters.length > 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
+                        <span v-if="<span v-if=" it.characters.length> 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
                     </div>
                 </div>
             </div>
@@ -395,4 +382,4 @@
             </div>
         </teleport>
     </div>
-</template>
+    </templatefunction fmtYear(y:number){ if (y===null || y===undefined) return '' ; if (y < 0) return `${Math.abs(y)} BC`; return String(y); } function primaryYear(it:any){ return sortMode.value==='release' ? fmtYear(it.releaseYear) : fmtYear(it.timelineYear); }>

@@ -1,139 +1,106 @@
 export const ITEMS = [
   {
-    "id": "eyes_of_wakanda",
-    "title": "Eyes of Wakanda",
-    "kind": "Series",
-    "phase": "Phase 6",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "-1260",
-    "timelineSort": -1260,
-    "stories": [
-      "Wakanda"
-    ],
-    "characters": [
-      "Hatut Zaraze / War Dogs"
-    ],
-    "infinityStones": [],
-    "synopsis": "Animated anthology following Wakandan War Dogs (Hatut Zaraze) across history as they retrieve vibranium artifacts and protect Wakanda’s secrets around the world.",
-    "timelineOrder": 0,
-    "timelineYear": -1260
+    id: "eyes_of_wakanda",
+    title: "Eyes of Wakanda",
+    kind: "Series",
+    phase: "Phase 6",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "1260 BC",
+    timelineSort: -1260,
+    stories: ["Wakanda"],
+    characters: ["Hatut Zaraze / War Dogs"],
+    infinityStones: [],
+    synopsis:
+      "Animated anthology following Wakandan War Dogs (Hatut Zaraze) across history as they retrieve vibranium artifacts and protect Wakanda\u2019s secrets around the world.",
+    timelineOrder: 0,
+    timelineYear: -1260
   },
   {
-    "id": "cap1",
-    "title": "Captain America: The First Avenger",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2011,
-    "releaseDate": null,
-    "timeline": "1943",
-    "timelineSort": 1943,
-    "stories": [
-      "Avengers & Allies",
-      "Infinity Stones",
-      "Super Soldier / HYDRA"
-    ],
-    "characters": [
+    id: "cap1",
+    title: "Captain America: The First Avenger",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2011,
+    releaseDate: null,
+    timeline: "1943",
+    timelineSort: 1943,
+    stories: ["Avengers & Allies", "Infinity Stones", "Super Soldier / HYDRA"],
+    characters: [
       "Steve Rogers / Captain America",
       "Peggy Carter",
       "Bucky Barnes / Winter Soldier",
       "Johann Schmidt / Red Skull",
       "Howard Stark"
     ],
-    "infinityStones": [
-      "Space"
-    ],
-    "synopsis": "Steve Rogers becomes Captain America during WWII and clashes with HYDRA leader Johann Schmidt (Red Skull). The origin of the Super Soldier legacy, the Tesseract, and key S.H.I.E.L.D. seeds.",
-    "timelineOrder": 1,
-    "timelineYear": 1943
+    infinityStones: ["Space"],
+    synopsis:
+      "Steve Rogers becomes Captain America during WWII and clashes with HYDRA leader Johann Schmidt (Red Skull). The origin of the Super Soldier legacy, the Tesseract, and key S.H.I.E.L.D. seeds.",
+    timelineOrder: 1,
+    timelineYear: 1943
   },
   {
-    "id": "agentcarteros",
-    "title": "Marvel One-Shot: Agent Carter",
-    "kind": "One-Shot",
-    "phase": "Phase 2 (One-Shot)",
-    "releaseYear": 2013,
-    "releaseDate": null,
-    "timeline": "1946",
-    "timelineSort": 1946,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Peggy Carter",
-      "Howard Stark",
-      "Edwin Jarvis"
-    ],
-    "infinityStones": [],
-    "synopsis": "Peggy Carter undertakes a covert mission that showcases her leadership and helps set the stage for the early S.H.I.E.L.D. era.",
-    "timelineOrder": 2,
-    "timelineYear": 1946
+    id: "agentcarteros",
+    title: "Marvel One-Shot: Agent Carter",
+    kind: "One-Shot",
+    phase: "Phase 2 (One-Shot)",
+    releaseYear: 2013,
+    releaseDate: null,
+    timeline: "1946",
+    timelineSort: 1946,
+    stories: ["Other"],
+    characters: ["Peggy Carter", "Howard Stark", "Edwin Jarvis"],
+    infinityStones: [],
+    synopsis:
+      "Peggy Carter undertakes a covert mission that showcases her leadership and helps set the stage for the early S.H.I.E.L.D. era.",
+    timelineOrder: 2,
+    timelineYear: 1946
   },
   {
-    "id": "capmarvel",
-    "title": "Captain Marvel",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2019,
-    "releaseDate": null,
-    "timeline": "1995",
-    "timelineSort": 1995,
-    "stories": [
-      "Cosmic",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Carol Danvers / Captain Marvel",
-      "Nick Fury",
-      "Talos",
-      "Maria Rambeau",
-      "Yon-Rogg",
-      "Skrulls"
-    ],
-    "infinityStones": [
-      "Space"
-    ],
-    "synopsis": "Carol Danvers embraces her cosmic powers amid the Kree–Skrull conflict and connects with Nick Fury. The film introduces the pager that later summons her in Endgame.",
-    "timelineOrder": 3,
-    "timelineYear": 1995
+    id: "capmarvel",
+    title: "Captain Marvel",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2019,
+    releaseDate: null,
+    timeline: "1995",
+    timelineSort: 1995,
+    stories: ["Cosmic", "Infinity Stones"],
+    characters: ["Carol Danvers / Captain Marvel", "Nick Fury", "Talos", "Maria Rambeau", "Yon-Rogg", "Skrulls"],
+    infinityStones: ["Space"],
+    synopsis:
+      "Carol Danvers embraces her cosmic powers amid the Kree\u2013Skrull conflict and connects with Nick Fury. The film introduces the pager that later summons her in Endgame.",
+    timelineOrder: 3,
+    timelineYear: 1995
   },
   {
-    "id": "ironman1",
-    "title": "Iron Man",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2008,
-    "releaseDate": null,
-    "timeline": "2010",
-    "timelineSort": 2010,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
-      "Tony Stark / Iron Man",
-      "Pepper Potts",
-      "James Rhodes",
-      "Obadiah Stane / Iron Monger",
-      "JARVIS"
-    ],
-    "infinityStones": [],
-    "synopsis": "Billionaire inventor Tony Stark escapes captivity by building the first Iron Man armor, then becomes a public hero while confronting Obadiah Stane. The MCU’s modern-era kickoff and the birth of the Avengers Initiative tease.",
-    "timelineOrder": 4,
-    "timelineYear": 2010
+    id: "ironman1",
+    title: "Iron Man",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2008,
+    releaseDate: null,
+    timeline: "2010",
+    timelineSort: 2010,
+    stories: ["Avengers & Allies"],
+    characters: ["Tony Stark / Iron Man", "Pepper Potts", "James Rhodes", "Obadiah Stane / Iron Monger", "JARVIS"],
+    infinityStones: [],
+    synopsis:
+      "Billionaire inventor Tony Stark escapes captivity by building the first Iron Man armor, then becomes a public hero while confronting Obadiah Stane. The MCU\u2019s modern-era kickoff and the birth of the Avengers Initiative tease.",
+    timelineOrder: 4,
+    timelineYear: 2010
   },
   {
-    "id": "ironman2",
-    "title": "Iron Man 2",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2010,
-    "releaseDate": null,
-    "timeline": "2011",
-    "timelineSort": 2011,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
+    id: "ironman2",
+    title: "Iron Man 2",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2010,
+    releaseDate: null,
+    timeline: "2011",
+    timelineSort: 2011,
+    stories: ["Avengers & Allies"],
+    characters: [
       "Tony Stark / Iron Man",
       "Natasha Romanoff / Black Widow",
       "James Rhodes / War Machine",
@@ -141,115 +108,91 @@ export const ITEMS = [
       "Ivan Vanko / Whiplash",
       "JARVIS"
     ],
-    "infinityStones": [],
-    "synopsis": "Tony faces palladium poisoning, government pressure, and rivals Ivan Vanko and Justin Hammer. Natasha Romanoff enters the story and the Avengers connections deepen.",
-    "timelineOrder": 5,
-    "timelineYear": 2011
+    infinityStones: [],
+    synopsis:
+      "Tony faces palladium poisoning, government pressure, and rivals Ivan Vanko and Justin Hammer. Natasha Romanoff enters the story and the Avengers connections deepen.",
+    timelineOrder: 5,
+    timelineYear: 2011
   },
   {
-    "id": "hulk",
-    "title": "The Incredible Hulk",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2008,
-    "releaseDate": null,
-    "timeline": "2011",
-    "timelineSort": 2011,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
-      "Bruce Banner / Hulk",
-      "Betty Ross",
-      "Thaddeus Ross",
-      "Emil Blonsky / Abomination",
-      "Samuel Sterns"
-    ],
-    "infinityStones": [],
-    "synopsis": "Bruce Banner tries to control the Hulk while pursued by the U.S. military. The Abomination emerges, and the film ends with Tony Stark hinting at a larger team-up.",
-    "timelineOrder": 6,
-    "timelineYear": 2011
+    id: "hulk",
+    title: "The Incredible Hulk",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2008,
+    releaseDate: null,
+    timeline: "2011",
+    timelineSort: 2011,
+    stories: ["Avengers & Allies"],
+    characters: ["Bruce Banner / Hulk", "Betty Ross", "Thaddeus Ross", "Emil Blonsky / Abomination", "Samuel Sterns"],
+    infinityStones: [],
+    synopsis:
+      "Bruce Banner tries to control the Hulk while pursued by the U.S. military. The Abomination emerges, and the film ends with Tony Stark hinting at a larger team-up.",
+    timelineOrder: 6,
+    timelineYear: 2011
   },
   {
-    "id": "oneshot_hammer",
-    "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor’s Hammer",
-    "kind": "One-Shot",
-    "phase": "Phase 1 (One-Shot)",
-    "releaseYear": 2011,
-    "releaseDate": null,
-    "timeline": "2011",
-    "timelineSort": 2011,
-    "stories": [
-      "Asgard"
-    ],
-    "characters": [
-      "Phil Coulson"
-    ],
-    "infinityStones": [],
-    "synopsis": "Phil Coulson makes a quick stop en route to New Mexico—an extra slice of early S.H.I.E.L.D. life just before Thor.",
-    "timelineOrder": 7,
-    "timelineYear": 2011
+    id: "oneshot_hammer",
+    title: "Marvel One-Shot: A Funny Thing Happened on the Way to Thor\u2019s Hammer",
+    kind: "One-Shot",
+    phase: "Phase 1 (One-Shot)",
+    releaseYear: 2011,
+    releaseDate: null,
+    timeline: "2011",
+    timelineSort: 2011,
+    stories: ["Asgard"],
+    characters: ["Phil Coulson"],
+    infinityStones: [],
+    synopsis:
+      "Phil Coulson makes a quick stop en route to New Mexico\u2014an extra slice of early S.H.I.E.L.D. life just before Thor.",
+    timelineOrder: 7,
+    timelineYear: 2011
   },
   {
-    "id": "thor1",
-    "title": "Thor",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2011,
-    "releaseDate": null,
-    "timeline": "2011",
-    "timelineSort": 2011,
-    "stories": [
-      "Asgard"
-    ],
-    "characters": [
-      "Thor",
-      "Loki (variants)",
-      "Jane Foster",
-      "Odin",
-      "Heimdall",
-      "Sif"
-    ],
-    "infinityStones": [],
-    "synopsis": "Thor is exiled to Earth and learns humility while Loki schemes in Asgard. The film expands the MCU into cosmic mythology and introduces the Bifrost-era Asgard cast.",
-    "timelineOrder": 8,
-    "timelineYear": 2011
+    id: "thor1",
+    title: "Thor",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2011,
+    releaseDate: null,
+    timeline: "2011",
+    timelineSort: 2011,
+    stories: ["Asgard"],
+    characters: ["Thor", "Loki (variants)", "Jane Foster", "Odin", "Heimdall", "Sif"],
+    infinityStones: [],
+    synopsis:
+      "Thor is exiled to Earth and learns humility while Loki schemes in Asgard. The film expands the MCU into cosmic mythology and introduces the Bifrost-era Asgard cast.",
+    timelineOrder: 8,
+    timelineYear: 2011
   },
   {
-    "id": "oneshot_consultant",
-    "title": "Marvel One-Shot: The Consultant",
-    "kind": "One-Shot",
-    "phase": "Phase 1 (One-Shot)",
-    "releaseYear": 2011,
-    "releaseDate": null,
-    "timeline": "2011",
-    "timelineSort": 2011,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Phil Coulson",
-      "Jasper Sitwell"
-    ],
-    "infinityStones": [],
-    "synopsis": "Coulson and Sitwell maneuver behind the scenes to influence a key decision involving the Avengers Initiative and S.H.I.E.L.D.",
-    "timelineOrder": 9,
-    "timelineYear": 2011
+    id: "oneshot_consultant",
+    title: "Marvel One-Shot: The Consultant",
+    kind: "One-Shot",
+    phase: "Phase 1 (One-Shot)",
+    releaseYear: 2011,
+    releaseDate: null,
+    timeline: "2011",
+    timelineSort: 2011,
+    stories: ["Other"],
+    characters: ["Phil Coulson", "Jasper Sitwell"],
+    infinityStones: [],
+    synopsis:
+      "Coulson and Sitwell maneuver behind the scenes to influence a key decision involving the Avengers Initiative and S.H.I.E.L.D.",
+    timelineOrder: 9,
+    timelineYear: 2011
   },
   {
-    "id": "avengers1",
-    "title": "The Avengers",
-    "kind": "Film",
-    "phase": "Phase 1",
-    "releaseYear": 2012,
-    "releaseDate": null,
-    "timeline": "2012",
-    "timelineSort": 2012,
-    "stories": [
-      "Avengers & Allies",
-      "Infinity Stones"
-    ],
-    "characters": [
+    id: "avengers1",
+    title: "The Avengers",
+    kind: "Film",
+    phase: "Phase 1",
+    releaseYear: 2012,
+    releaseDate: null,
+    timeline: "2012",
+    timelineSort: 2012,
+    stories: ["Avengers & Allies", "Infinity Stones"],
+    characters: [
       "Tony Stark / Iron Man",
       "Steve Rogers / Captain America",
       "Thor",
@@ -262,76 +205,57 @@ export const ITEMS = [
       "Maria Hill",
       "Erik Selvig"
     ],
-    "infinityStones": [
-      "Space",
-      "Mind"
-    ],
-    "synopsis": "Earth’s first major team-up: Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye unite to stop Loki’s invasion. The Battle of New York reshapes the MCU for years.",
-    "timelineOrder": 10,
-    "timelineYear": 2012
+    infinityStones: ["Space", "Mind"],
+    synopsis:
+      "Earth\u2019s first major team-up: Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye unite to stop Loki\u2019s invasion. The Battle of New York reshapes the MCU for years.",
+    timelineOrder: 10,
+    timelineYear: 2012
   },
   {
-    "id": "oneshot_item47",
-    "title": "Marvel One-Shot: Item 47",
-    "kind": "One-Shot",
-    "phase": "Phase 1 (One-Shot)",
-    "releaseYear": 2012,
-    "releaseDate": null,
-    "timeline": "2012",
-    "timelineSort": 2012,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "S.H.I.E.L.D.",
-      "Maria Hill"
-    ],
-    "infinityStones": [],
-    "synopsis": "A leftover Chitauri weapon sparks a small-scale crisis, showing how the Battle of New York ripples into everyday crime and S.H.I.E.L.D. response.",
-    "timelineOrder": 11,
-    "timelineYear": 2012
+    id: "oneshot_item47",
+    title: "Marvel One-Shot: Item 47",
+    kind: "One-Shot",
+    phase: "Phase 1 (One-Shot)",
+    releaseYear: 2012,
+    releaseDate: null,
+    timeline: "2012",
+    timelineSort: 2012,
+    stories: ["Other"],
+    characters: ["S.H.I.E.L.D.", "Maria Hill"],
+    infinityStones: [],
+    synopsis:
+      "A leftover Chitauri weapon sparks a small-scale crisis, showing how the Battle of New York ripples into everyday crime and S.H.I.E.L.D. response.",
+    timelineOrder: 11,
+    timelineYear: 2012
   },
   {
-    "id": "thor2",
-    "title": "Thor: The Dark World",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2013,
-    "releaseDate": null,
-    "timeline": "2013",
-    "timelineSort": 2013,
-    "stories": [
-      "Asgard",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Thor",
-      "Loki (variants)",
-      "Jane Foster",
-      "Malekith",
-      "Odin",
-      "Frigga"
-    ],
-    "infinityStones": [
-      "Reality"
-    ],
-    "synopsis": "Thor confronts Malekith and the Aether (Reality Stone) while Asgard’s stability cracks. Loki’s arc takes a pivotal turn.",
-    "timelineOrder": 12,
-    "timelineYear": 2013
+    id: "thor2",
+    title: "Thor: The Dark World",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2013,
+    releaseDate: null,
+    timeline: "2013",
+    timelineSort: 2013,
+    stories: ["Asgard", "Infinity Stones"],
+    characters: ["Thor", "Loki (variants)", "Jane Foster", "Malekith", "Odin", "Frigga"],
+    infinityStones: ["Reality"],
+    synopsis:
+      "Thor confronts Malekith and the Aether (Reality Stone) while Asgard\u2019s stability cracks. Loki\u2019s arc takes a pivotal turn.",
+    timelineOrder: 12,
+    timelineYear: 2013
   },
   {
-    "id": "ironman3",
-    "title": "Iron Man 3",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2013,
-    "releaseDate": null,
-    "timeline": "2013",
-    "timelineSort": 2013,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
+    id: "ironman3",
+    title: "Iron Man 3",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2013,
+    releaseDate: null,
+    timeline: "2013",
+    timelineSort: 2013,
+    stories: ["Avengers & Allies"],
+    characters: [
       "Tony Stark / Iron Man",
       "Pepper Potts",
       "James Rhodes / War Machine",
@@ -339,45 +263,40 @@ export const ITEMS = [
       "Trevor Slattery",
       "JARVIS"
     ],
-    "infinityStones": [],
-    "synopsis": "After Avengers trauma, Tony battles the Mandarin myth and Extremis, ultimately redefining what ‘Iron Man’ means to him. The film seeds future tech and identity themes.",
-    "timelineOrder": 13,
-    "timelineYear": 2013
+    infinityStones: [],
+    synopsis:
+      "After Avengers trauma, Tony battles the Mandarin myth and Extremis, ultimately redefining what \u2018Iron Man\u2019 means to him. The film seeds future tech and identity themes.",
+    timelineOrder: 13,
+    timelineYear: 2013
   },
   {
-    "id": "oneshot_king",
-    "title": "Marvel One-Shot: All Hail the King",
-    "kind": "One-Shot",
-    "phase": "Phase 2 (One-Shot)",
-    "releaseYear": 2014,
-    "releaseDate": null,
-    "timeline": "2014",
-    "timelineSort": 2014,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Trevor Slattery"
-    ],
-    "infinityStones": [],
-    "synopsis": "Trevor Slattery’s fallout from Iron Man 3 reveals deeper Ten Rings connections and teases bigger truths behind the Mandarin legend.",
-    "timelineOrder": 14,
-    "timelineYear": 2014
+    id: "oneshot_king",
+    title: "Marvel One-Shot: All Hail the King",
+    kind: "One-Shot",
+    phase: "Phase 2 (One-Shot)",
+    releaseYear: 2014,
+    releaseDate: null,
+    timeline: "2014",
+    timelineSort: 2014,
+    stories: ["Other"],
+    characters: ["Trevor Slattery"],
+    infinityStones: [],
+    synopsis:
+      "Trevor Slattery\u2019s fallout from Iron Man 3 reveals deeper Ten Rings connections and teases bigger truths behind the Mandarin legend.",
+    timelineOrder: 14,
+    timelineYear: 2014
   },
   {
-    "id": "cap2",
-    "title": "Captain America: The Winter Soldier",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2014,
-    "releaseDate": null,
-    "timeline": "2014",
-    "timelineSort": 2014,
-    "stories": [
-      "Avengers & Allies",
-      "Super Soldier / HYDRA"
-    ],
-    "characters": [
+    id: "cap2",
+    title: "Captain America: The Winter Soldier",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2014,
+    releaseDate: null,
+    timeline: "2014",
+    timelineSort: 2014,
+    stories: ["Avengers & Allies", "Super Soldier / HYDRA"],
+    characters: [
       "Steve Rogers / Captain America",
       "Bucky Barnes / Winter Soldier",
       "Natasha Romanoff / Black Widow",
@@ -385,171 +304,124 @@ export const ITEMS = [
       "Nick Fury",
       "Alexander Pierce"
     ],
-    "infinityStones": [],
-    "synopsis": "Steve and Natasha uncover HYDRA’s infiltration of S.H.I.E.L.D. and face the Winter Soldier. One of the MCU’s biggest status-quo shakeups.",
-    "timelineOrder": 15,
-    "timelineYear": 2014
+    infinityStones: [],
+    synopsis:
+      "Steve and Natasha uncover HYDRA\u2019s infiltration of S.H.I.E.L.D. and face the Winter Soldier. One of the MCU\u2019s biggest status-quo shakeups.",
+    timelineOrder: 15,
+    timelineYear: 2014
   },
   {
-    "id": "gotg1",
-    "title": "Guardians of the Galaxy",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2014,
-    "releaseDate": null,
-    "timeline": "2014",
-    "timelineSort": 2014,
-    "stories": [
-      "Cosmic",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Peter Quill / Star-Lord",
-      "Gamora",
-      "Drax",
-      "Rocket",
-      "Groot",
-      "Ronan",
-      "Yondu"
-    ],
-    "infinityStones": [
-      "Power"
-    ],
-    "synopsis": "Star-Lord teams with Gamora, Drax, Rocket, and Groot to stop Ronan and protect an Infinity Stone. The MCU goes full space opera.",
-    "timelineOrder": 16,
-    "timelineYear": 2014
+    id: "gotg1",
+    title: "Guardians of the Galaxy",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2014,
+    releaseDate: null,
+    timeline: "2014",
+    timelineSort: 2014,
+    stories: ["Cosmic", "Infinity Stones"],
+    characters: ["Peter Quill / Star-Lord", "Gamora", "Drax", "Rocket", "Groot", "Ronan", "Yondu"],
+    infinityStones: ["Power"],
+    synopsis:
+      "Star-Lord teams with Gamora, Drax, Rocket, and Groot to stop Ronan and protect an Infinity Stone. The MCU goes full space opera.",
+    timelineOrder: 16,
+    timelineYear: 2014
   },
   {
-    "id": "gotg2",
-    "title": "Guardians of the Galaxy Vol. 2",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2014",
-    "timelineSort": 2014,
-    "stories": [
-      "Cosmic",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Peter Quill / Star-Lord",
-      "Gamora",
-      "Drax",
-      "Rocket",
-      "Groot",
-      "Yondu",
-      "Nebula",
-      "Mantis",
-      "Ego"
-    ],
-    "infinityStones": [],
-    "synopsis": "Set shortly after Vol. 1, the Guardians confront Ego and deepen their found-family bonds. Big character growth for Peter, Yondu, and the team.",
-    "timelineOrder": 17,
-    "timelineYear": 2014
+    id: "gotg2",
+    title: "Guardians of the Galaxy Vol. 2",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2014",
+    timelineSort: 2014,
+    stories: ["Cosmic", "Infinity Stones"],
+    characters: ["Peter Quill / Star-Lord", "Gamora", "Drax", "Rocket", "Groot", "Yondu", "Nebula", "Mantis", "Ego"],
+    infinityStones: [],
+    synopsis:
+      "Set shortly after Vol. 1, the Guardians confront Ego and deepen their found-family bonds. Big character growth for Peter, Yondu, and the team.",
+    timelineOrder: 17,
+    timelineYear: 2014
   },
   {
-    "id": "iamgroot1",
-    "title": "I Am Groot (Season 1)",
-    "kind": "Series",
-    "phase": "Shorts",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2022",
-    "timelineSort": 2022,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Groot",
-      "Rocket"
-    ],
-    "infinityStones": [],
-    "synopsis": "A set of playful animated shorts following Baby Groot’s misadventures between the Guardians’ bigger stories.",
-    "timelineOrder": 18,
-    "timelineYear": 2022
+    id: "iamgroot1",
+    title: "I Am Groot (Season 1)",
+    kind: "Series",
+    phase: "Shorts",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2022",
+    timelineSort: 2022,
+    stories: ["Other"],
+    characters: ["Groot", "Rocket"],
+    infinityStones: [],
+    synopsis:
+      "A set of playful animated shorts following Baby Groot\u2019s misadventures between the Guardians\u2019 bigger stories.",
+    timelineOrder: 18,
+    timelineYear: 2022
   },
   {
-    "id": "iamgroot2",
-    "title": "I Am Groot (Season 2)",
-    "kind": "Series",
-    "phase": "Shorts",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2023",
-    "timelineSort": 2023,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Groot",
-      "Rocket"
-    ],
-    "infinityStones": [],
-    "synopsis": "More bite-sized Groot chaos—light canon flavor around the Guardians corner of the MCU.",
-    "timelineOrder": 19,
-    "timelineYear": 2023
+    id: "iamgroot2",
+    title: "I Am Groot (Season 2)",
+    kind: "Series",
+    phase: "Shorts",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2023",
+    timelineSort: 2023,
+    stories: ["Other"],
+    characters: ["Groot", "Rocket"],
+    infinityStones: [],
+    synopsis: "More bite-sized Groot chaos\u2014light canon flavor around the Guardians corner of the MCU.",
+    timelineOrder: 19,
+    timelineYear: 2023
   },
   {
-    "id": "dd_s1",
-    "title": "Daredevil (Season 1)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2015,
-    "releaseDate": null,
-    "timeline": "2014",
-    "timelineSort": 2014,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Matt Murdock / Daredevil",
-      "Wilson Fisk / Kingpin",
-      "Foggy Nelson",
-      "Karen Page"
-    ],
-    "infinityStones": [],
-    "synopsis": "Blind lawyer Matt Murdock becomes Daredevil to protect Hell’s Kitchen from Wilson Fisk. Ground-level MCU crime drama that later folds into the larger canon on Disney+.",
-    "timelineOrder": 20,
-    "timelineYear": 2014
+    id: "dd_s1",
+    title: "Daredevil (Season 1)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2015,
+    releaseDate: null,
+    timeline: "2014",
+    timelineSort: 2014,
+    stories: ["Street-level"],
+    characters: ["Matt Murdock / Daredevil", "Wilson Fisk / Kingpin", "Foggy Nelson", "Karen Page"],
+    infinityStones: [],
+    synopsis:
+      "Blind lawyer Matt Murdock becomes Daredevil to protect Hell\u2019s Kitchen from Wilson Fisk. Ground-level MCU crime drama that later folds into the larger canon on Disney+.",
+    timelineOrder: 20,
+    timelineYear: 2014
   },
   {
-    "id": "jj_s1",
-    "title": "Jessica Jones (Season 1)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2015,
-    "releaseDate": null,
-    "timeline": "2015",
-    "timelineSort": 2015,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Jessica Jones",
-      "Kilgrave",
-      "Trish Walker",
-      "Luke Cage"
-    ],
-    "infinityStones": [],
-    "synopsis": "Private investigator Jessica Jones confronts Kilgrave, whose mind control ties to her trauma. A darker, psychological MCU street story.",
-    "timelineOrder": 21,
-    "timelineYear": 2015
+    id: "jj_s1",
+    title: "Jessica Jones (Season 1)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2015,
+    releaseDate: null,
+    timeline: "2015",
+    timelineSort: 2015,
+    stories: ["Street-level"],
+    characters: ["Jessica Jones", "Kilgrave", "Trish Walker", "Luke Cage"],
+    infinityStones: [],
+    synopsis:
+      "Private investigator Jessica Jones confronts Kilgrave, whose mind control ties to her trauma. A darker, psychological MCU street story.",
+    timelineOrder: 21,
+    timelineYear: 2015
   },
   {
-    "id": "aou",
-    "title": "Avengers: Age of Ultron",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2015,
-    "releaseDate": null,
-    "timeline": "2015",
-    "timelineSort": 2015,
-    "stories": [
-      "Avengers & Allies",
-      "Infinity Stones"
-    ],
-    "characters": [
+    id: "aou",
+    title: "Avengers: Age of Ultron",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2015,
+    releaseDate: null,
+    timeline: "2015",
+    timelineSort: 2015,
+    stories: ["Avengers & Allies", "Infinity Stones"],
+    characters: [
       "Tony Stark / Iron Man",
       "Steve Rogers / Captain America",
       "Thor",
@@ -563,119 +435,90 @@ export const ITEMS = [
       "Nick Fury",
       "Maria Hill"
     ],
-    "infinityStones": [
-      "Mind"
-    ],
-    "synopsis": "Ultron forces the Avengers to face the consequences of unchecked tech. Wanda and Pietro arrive, Vision is born, and the team’s cracks begin to show.",
-    "timelineOrder": 22,
-    "timelineYear": 2015
+    infinityStones: ["Mind"],
+    synopsis:
+      "Ultron forces the Avengers to face the consequences of unchecked tech. Wanda and Pietro arrive, Vision is born, and the team\u2019s cracks begin to show.",
+    timelineOrder: 22,
+    timelineYear: 2015
   },
   {
-    "id": "antman1",
-    "title": "Ant-Man",
-    "kind": "Film",
-    "phase": "Phase 2",
-    "releaseYear": 2015,
-    "releaseDate": null,
-    "timeline": "2015",
-    "timelineSort": 2015,
-    "stories": [
-      "Quantum Realm"
-    ],
-    "characters": [
-      "Scott Lang / Ant-Man",
-      "Hope van Dyne / Wasp",
-      "Hank Pym",
-      "Darren Cross / Yellowjacket"
-    ],
-    "infinityStones": [],
-    "synopsis": "Scott Lang becomes Ant-Man under Hank Pym’s guidance, pulling off a heist and introducing the Quantum Realm’s long-term importance.",
-    "timelineOrder": 23,
-    "timelineYear": 2015
+    id: "antman1",
+    title: "Ant-Man",
+    kind: "Film",
+    phase: "Phase 2",
+    releaseYear: 2015,
+    releaseDate: null,
+    timeline: "2015",
+    timelineSort: 2015,
+    stories: ["Quantum Realm"],
+    characters: ["Scott Lang / Ant-Man", "Hope van Dyne / Wasp", "Hank Pym", "Darren Cross / Yellowjacket"],
+    infinityStones: [],
+    synopsis:
+      "Scott Lang becomes Ant-Man under Hank Pym\u2019s guidance, pulling off a heist and introducing the Quantum Realm\u2019s long-term importance.",
+    timelineOrder: 23,
+    timelineYear: 2015
   },
   {
-    "id": "dd_s2",
-    "title": "Daredevil (Season 2)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2016,
-    "releaseDate": null,
-    "timeline": "2015",
-    "timelineSort": 2015,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Matt Murdock / Daredevil",
-      "Frank Castle / Punisher",
-      "Elektra Natchios",
-      "Wilson Fisk / Kingpin"
-    ],
-    "infinityStones": [],
-    "synopsis": "The Punisher and Elektra collide with Matt’s mission, expanding the street-level MCU with moral gray zones and ninja conspiracies.",
-    "timelineOrder": 24,
-    "timelineYear": 2015
+    id: "dd_s2",
+    title: "Daredevil (Season 2)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2016,
+    releaseDate: null,
+    timeline: "2015",
+    timelineSort: 2015,
+    stories: ["Street-level"],
+    characters: ["Matt Murdock / Daredevil", "Frank Castle / Punisher", "Elektra Natchios", "Wilson Fisk / Kingpin"],
+    infinityStones: [],
+    synopsis:
+      "The Punisher and Elektra collide with Matt\u2019s mission, expanding the street-level MCU with moral gray zones and ninja conspiracies.",
+    timelineOrder: 24,
+    timelineYear: 2015
   },
   {
-    "id": "lc_s1",
-    "title": "Luke Cage (Season 1)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2016,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Luke Cage",
-      "Mariah Dillard",
-      "Cornell Stokes / Cottonmouth",
-      "Misty Knight"
-    ],
-    "infinityStones": [],
-    "synopsis": "In Harlem, Luke Cage becomes a bulletproof symbol against crime bosses Cottonmouth and Diamondback.",
-    "timelineOrder": 25,
-    "timelineYear": 2016
+    id: "lc_s1",
+    title: "Luke Cage (Season 1)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2016,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Street-level"],
+    characters: ["Luke Cage", "Mariah Dillard", "Cornell Stokes / Cottonmouth", "Misty Knight"],
+    infinityStones: [],
+    synopsis: "In Harlem, Luke Cage becomes a bulletproof symbol against crime bosses Cottonmouth and Diamondback.",
+    timelineOrder: 25,
+    timelineYear: 2016
   },
   {
-    "id": "if_s1",
-    "title": "Iron Fist (Season 1)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Danny Rand / Iron Fist",
-      "Colleen Wing",
-      "Ward Meachum",
-      "Harold Meachum",
-      "The Hand"
-    ],
-    "infinityStones": [],
-    "synopsis": "Danny Rand returns to New York with mystical training and faces The Hand, linking the Defenders characters to a shared threat.",
-    "timelineOrder": 26,
-    "timelineYear": 2016
+    id: "if_s1",
+    title: "Iron Fist (Season 1)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Street-level"],
+    characters: ["Danny Rand / Iron Fist", "Colleen Wing", "Ward Meachum", "Harold Meachum", "The Hand"],
+    infinityStones: [],
+    synopsis:
+      "Danny Rand returns to New York with mystical training and faces The Hand, linking the Defenders characters to a shared threat.",
+    timelineOrder: 26,
+    timelineYear: 2016
   },
   {
-    "id": "defenders",
-    "title": "The Defenders",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
+    id: "defenders",
+    title: "The Defenders",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Street-level"],
+    characters: [
       "Matt Murdock / Daredevil",
       "Jessica Jones",
       "Luke Cage",
@@ -683,58 +526,57 @@ export const ITEMS = [
       "Elektra",
       "The Hand"
     ],
-    "infinityStones": [],
-    "synopsis": "Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up against The Hand. The crossover that unites the Netflix-era heroes.",
-    "timelineOrder": 27,
-    "timelineYear": 2016
+    infinityStones: [],
+    synopsis:
+      "Daredevil, Jessica Jones, Luke Cage, and Iron Fist team up against The Hand. The crossover that unites the Netflix-era heroes.",
+    timelineOrder: 27,
+    timelineYear: 2016
   },
   {
-    "id": "civilwar",
-    "title": "Captain America: Civil War",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2016,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Avengers & Allies",
-      "Super Soldier / HYDRA"
-    ],
-    "characters": [
+    id: "civilwar",
+    title: "Captain America: Civil War",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2016,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Avengers & Allies", "Super Soldier / HYDRA"],
+    characters: [
       "Steve Rogers / Captain America",
       "Tony Stark / Iron Man",
-      "Bucky Barnes / Winter Soldier",
-      "Sam Wilson / Falcon",
-      "Natasha Romanoff / Black Widow",
-      "Clint Barton / Hawkeye",
-      "Wanda Maximoff",
-      "Vision",
       "James Rhodes / War Machine",
+      "Natasha Romanoff / Black Widow",
+      "Sam Wilson / Falcon",
+      "Bucky Barnes / Winter Soldier",
+      "Wanda Maximoff / Scarlet Witch",
+      "Vision",
+      "Clint Barton / Hawkeye",
       "Scott Lang / Ant-Man",
       "Peter Parker / Spider-Man",
       "T'Challa / Black Panther",
       "Helmut Zemo",
-      "Sharon Carter"
+      "Thaddeus Ross",
+      "Sharon Carter",
+      "Peggy Carter"
     ],
-    "infinityStones": [],
-    "synopsis": "The Sokovia Accords fracture the Avengers into Team Cap vs Team Iron Man. Black Panther and Spider-Man enter the MCU as alliances shatter.",
-    "timelineOrder": 28,
-    "timelineYear": 2016
+    infinityStones: [],
+    synopsis:
+      "The Sokovia Accords fracture the Avengers into Team Cap vs Team Iron Man. Black Panther and Spider-Man enter the MCU as alliances shatter.",
+    timelineOrder: 28,
+    timelineYear: 2016
   },
   {
-    "id": "blackwidow",
-    "title": "Black Widow",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
+    id: "blackwidow",
+    title: "Black Widow",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Avengers & Allies"],
+    characters: [
       "Natasha Romanoff / Black Widow",
       "Yelena Belova",
       "Alexei Shostakov / Red Guardian",
@@ -742,50 +584,39 @@ export const ITEMS = [
       "Dreykov",
       "Taskmaster"
     ],
-    "infinityStones": [],
-    "synopsis": "Natasha confronts the Red Room and her ‘family’ (Yelena, Alexei, Melina). A spy thriller that sets up major future players.",
-    "timelineOrder": 29,
-    "timelineYear": 2016
+    infinityStones: [],
+    synopsis:
+      "Natasha confronts the Red Room and her \u2018family\u2019 (Yelena, Alexei, Melina). A spy thriller that sets up major future players.",
+    timelineOrder: 29,
+    timelineYear: 2016
   },
   {
-    "id": "blackpanther",
-    "title": "Black Panther",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Wakanda"
-    ],
-    "characters": [
-      "T'Challa / Black Panther",
-      "Shuri",
-      "Okoye",
-      "Nakia",
-      "Erik Killmonger",
-      "Ramonda",
-      "M'Baku"
-    ],
-    "infinityStones": [],
-    "synopsis": "T’Challa returns to Wakanda and faces Erik Killmonger. Wakanda’s global role changes forever.",
-    "timelineOrder": 30,
-    "timelineYear": 2016
+    id: "blackpanther",
+    title: "Black Panther",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Wakanda"],
+    characters: ["T'Challa / Black Panther", "Shuri", "Okoye", "Nakia", "Erik Killmonger", "Ramonda", "M'Baku"],
+    infinityStones: [],
+    synopsis: "T\u2019Challa returns to Wakanda and faces Erik Killmonger. Wakanda\u2019s global role changes forever.",
+    timelineOrder: 30,
+    timelineYear: 2016
   },
   {
-    "id": "homecoming",
-    "title": "Spider-Man: Homecoming",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
+    id: "homecoming",
+    title: "Spider-Man: Homecoming",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Other"],
+    characters: [
       "Peter Parker / Spider-Man",
       "Ned Leeds",
       "MJ",
@@ -793,471 +624,365 @@ export const ITEMS = [
       "Happy Hogan",
       "Adrian Toomes / Vulture"
     ],
-    "infinityStones": [],
-    "synopsis": "Peter Parker balances high school life with hero work, facing Adrian Toomes (Vulture). Tony Stark mentors—then tests—Peter’s independence.",
-    "timelineOrder": 31,
-    "timelineYear": 2016
+    infinityStones: [],
+    synopsis:
+      "Peter Parker balances high school life with hero work, facing Adrian Toomes (Vulture). Tony Stark mentors\u2014then tests\u2014Peter\u2019s independence.",
+    timelineOrder: 31,
+    timelineYear: 2016
   },
   {
-    "id": "punisher_s1",
-    "title": "The Punisher (Season 1)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Frank Castle / Punisher",
-      "Billy Russo",
-      "Karen Page",
-      "Micro"
-    ],
-    "infinityStones": [],
-    "synopsis": "Frank Castle hunts those behind his family’s murder, exposing conspiracies and redefining his brutal vigilante code.",
-    "timelineOrder": 32,
-    "timelineYear": 2016
+    id: "punisher_s1",
+    title: "The Punisher (Season 1)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Street-level"],
+    characters: ["Frank Castle / Punisher", "Billy Russo", "Karen Page", "Micro"],
+    infinityStones: [],
+    synopsis:
+      "Frank Castle hunts those behind his family\u2019s murder, exposing conspiracies and redefining his brutal vigilante code.",
+    timelineOrder: 32,
+    timelineYear: 2016
   },
   {
-    "id": "drstrange1",
-    "title": "Doctor Strange",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2016,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Infinity Stones",
-      "Mystic/Supernatural"
-    ],
-    "characters": [
-      "Stephen Strange / Doctor Strange",
-      "Wong",
-      "The Ancient One",
-      "Kaecilius",
-      "Dormammu"
-    ],
-    "infinityStones": [
-      "Time"
-    ],
-    "synopsis": "Stephen Strange becomes the Sorcerer Supreme-in-training and defends reality from Dormammu using the Time Stone. The MCU’s mystic doorway.",
-    "timelineOrder": 33,
-    "timelineYear": 2016
+    id: "drstrange1",
+    title: "Doctor Strange",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2016,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Infinity Stones", "Mystic/Supernatural"],
+    characters: ["Stephen Strange / Doctor Strange", "Wong", "The Ancient One", "Kaecilius", "Dormammu"],
+    infinityStones: ["Time"],
+    synopsis:
+      "Stephen Strange becomes the Sorcerer Supreme-in-training and defends reality from Dormammu using the Time Stone. The MCU\u2019s mystic doorway.",
+    timelineOrder: 33,
+    timelineYear: 2016
   },
   {
-    "id": "jj_s2",
-    "title": "Jessica Jones (Season 2)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Jessica Jones",
-      "Trish Walker",
-      "Alisa Jones"
-    ],
-    "infinityStones": [],
-    "synopsis": "Jessica investigates her origin and her mother, wrestling with control, anger, and the cost of power.",
-    "timelineOrder": 34,
-    "timelineYear": 2017
+    id: "jj_s2",
+    title: "Jessica Jones (Season 2)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Street-level"],
+    characters: ["Jessica Jones", "Trish Walker", "Alisa Jones"],
+    infinityStones: [],
+    synopsis: "Jessica investigates her origin and her mother, wrestling with control, anger, and the cost of power.",
+    timelineOrder: 34,
+    timelineYear: 2017
   },
   {
-    "id": "lc_s2",
-    "title": "Luke Cage (Season 2)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Luke Cage",
-      "Mariah Dillard",
-      "Bushmaster",
-      "Misty Knight"
-    ],
-    "infinityStones": [],
-    "synopsis": "Luke navigates Harlem’s power vacuum as new threats rise, testing what kind of ‘hero’ the neighborhood needs.",
-    "timelineOrder": 35,
-    "timelineYear": 2017
+    id: "lc_s2",
+    title: "Luke Cage (Season 2)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Street-level"],
+    characters: ["Luke Cage", "Mariah Dillard", "Bushmaster", "Misty Knight"],
+    infinityStones: [],
+    synopsis:
+      "Luke navigates Harlem\u2019s power vacuum as new threats rise, testing what kind of \u2018hero\u2019 the neighborhood needs.",
+    timelineOrder: 35,
+    timelineYear: 2017
   },
   {
-    "id": "if_s2",
-    "title": "Iron Fist (Season 2)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Danny Rand / Iron Fist",
-      "Colleen Wing",
-      "Davos",
-      "Ward Meachum"
-    ],
-    "infinityStones": [],
-    "synopsis": "Danny’s rivalry and responsibility intensify, while new Iron Fist legacy threads are teased.",
-    "timelineOrder": 36,
-    "timelineYear": 2017
+    id: "if_s2",
+    title: "Iron Fist (Season 2)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Street-level"],
+    characters: ["Danny Rand / Iron Fist", "Colleen Wing", "Davos", "Ward Meachum"],
+    infinityStones: [],
+    synopsis: "Danny\u2019s rivalry and responsibility intensify, while new Iron Fist legacy threads are teased.",
+    timelineOrder: 36,
+    timelineYear: 2017
   },
   {
-    "id": "dd_s3",
-    "title": "Daredevil (Season 3)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
+    id: "dd_s3",
+    title: "Daredevil (Season 3)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Street-level"],
+    characters: [
       "Matt Murdock / Daredevil",
       "Wilson Fisk / Kingpin",
       "Benjamin Poindexter / Bullseye",
       "Karen Page",
       "Foggy Nelson"
     ],
-    "infinityStones": [],
-    "synopsis": "Matt rebuilds after The Defenders and faces Wilson Fisk’s return and the rise of Bullseye.",
-    "timelineOrder": 37,
-    "timelineYear": 2017
+    infinityStones: [],
+    synopsis: "Matt rebuilds after The Defenders and faces Wilson Fisk\u2019s return and the rise of Bullseye.",
+    timelineOrder: 37,
+    timelineYear: 2017
   },
   {
-    "id": "thor3",
-    "title": "Thor: Ragnarok",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2017,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Asgard"
-    ],
-    "characters": [
-      "Thor",
-      "Loki (variants)",
-      "Bruce Banner / Hulk",
-      "Valkyrie",
-      "Hela",
-      "Grandmaster"
-    ],
-    "infinityStones": [],
-    "synopsis": "Thor loses his hammer, finds new purpose, and stops Hela—at the cost of Asgard itself. The path to Infinity War begins.",
-    "timelineOrder": 38,
-    "timelineYear": 2017
+    id: "thor3",
+    title: "Thor: Ragnarok",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2017,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Asgard"],
+    characters: ["Thor", "Loki (variants)", "Bruce Banner / Hulk", "Valkyrie", "Hela", "Grandmaster"],
+    infinityStones: [],
+    synopsis:
+      "Thor loses his hammer, finds new purpose, and stops Hela\u2014at the cost of Asgard itself. The path to Infinity War begins.",
+    timelineOrder: 38,
+    timelineYear: 2017
   },
   {
-    "id": "punisher_s2",
-    "title": "The Punisher (Season 2)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2019,
-    "releaseDate": null,
-    "timeline": "2017",
-    "timelineSort": 2017,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Frank Castle / Punisher",
-      "Billy Russo"
-    ],
-    "infinityStones": [],
-    "synopsis": "Frank confronts new enemies and questions whether he can ever stop being ‘The Punisher.’",
-    "timelineOrder": 39,
-    "timelineYear": 2017
+    id: "punisher_s2",
+    title: "The Punisher (Season 2)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2019,
+    releaseDate: null,
+    timeline: "2017",
+    timelineSort: 2017,
+    stories: ["Street-level"],
+    characters: ["Frank Castle / Punisher", "Billy Russo"],
+    infinityStones: [],
+    synopsis: "Frank confronts new enemies and questions whether he can ever stop being \u2018The Punisher.\u2019",
+    timelineOrder: 39,
+    timelineYear: 2017
   },
   {
-    "id": "jj_s3",
-    "title": "Jessica Jones (Season 3)",
-    "kind": "Series",
-    "phase": "Defenders Saga",
-    "releaseYear": 2019,
-    "releaseDate": null,
-    "timeline": "2018",
-    "timelineSort": 2018,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Jessica Jones",
-      "Trish Walker",
-      "Gregory Salinger"
-    ],
-    "infinityStones": [],
-    "synopsis": "Jessica faces a serial killer and the moral consequences of vigilantism, closing out her Netflix-era arc.",
-    "timelineOrder": 40,
-    "timelineYear": 2018
+    id: "jj_s3",
+    title: "Jessica Jones (Season 3)",
+    kind: "Series",
+    phase: "Defenders Saga",
+    releaseYear: 2019,
+    releaseDate: null,
+    timeline: "2018",
+    timelineSort: 2018,
+    stories: ["Street-level"],
+    characters: ["Jessica Jones", "Trish Walker", "Gregory Salinger"],
+    infinityStones: [],
+    synopsis:
+      "Jessica faces a serial killer and the moral consequences of vigilantism, closing out her Netflix-era arc.",
+    timelineOrder: 40,
+    timelineYear: 2018
   },
   {
-    "id": "antman2",
-    "title": "Ant-Man and the Wasp",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2018",
-    "timelineSort": 2018,
-    "stories": [
-      "Quantum Realm"
-    ],
-    "characters": [
-      "Scott Lang / Ant-Man",
-      "Hope van Dyne / Wasp",
-      "Hank Pym",
-      "Janet van Dyne",
-      "Ghost"
-    ],
-    "infinityStones": [],
-    "synopsis": "Scott teams with Hope to rescue Janet from the Quantum Realm while dodging Ghost and law enforcement. The Quantum Realm becomes central to what comes next.",
-    "timelineOrder": 41,
-    "timelineYear": 2018
+    id: "antman2",
+    title: "Ant-Man and the Wasp",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2018",
+    timelineSort: 2018,
+    stories: ["Quantum Realm"],
+    characters: ["Scott Lang / Ant-Man", "Hope van Dyne / Wasp", "Hank Pym", "Janet van Dyne", "Ghost"],
+    infinityStones: [],
+    synopsis:
+      "Scott teams with Hope to rescue Janet from the Quantum Realm while dodging Ghost and law enforcement. The Quantum Realm becomes central to what comes next.",
+    timelineOrder: 41,
+    timelineYear: 2018
   },
   {
-    "id": "infinitywar",
-    "title": "Avengers: Infinity War",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2018,
-    "releaseDate": null,
-    "timeline": "2018",
-    "timelineSort": 2018,
-    "stories": [
-      "Avengers & Allies",
-      "Infinity Stones"
-    ],
-    "characters": [
+    id: "infinitywar",
+    title: "Avengers: Infinity War",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2018,
+    releaseDate: null,
+    timeline: "2018",
+    timelineSort: 2018,
+    stories: ["Avengers & Allies", "Infinity Stones"],
+    characters: [
       "Thanos",
       "Tony Stark / Iron Man",
       "Steve Rogers / Captain America",
       "Thor",
       "Bruce Banner / Hulk",
       "Natasha Romanoff / Black Widow",
-      "Clint Barton / Hawkeye",
+      "Stephen Strange / Doctor Strange",
+      "Peter Parker / Spider-Man",
+      "Wong",
+      "Vision",
+      "Wanda Maximoff / Scarlet Witch",
       "Sam Wilson / Falcon",
       "Bucky Barnes / Winter Soldier",
       "James Rhodes / War Machine",
-      "Peter Parker / Spider-Man",
-      "Stephen Strange / Doctor Strange",
-      "Wong",
-      "Wanda Maximoff",
-      "Vision",
       "T'Challa / Black Panther",
       "Shuri",
       "Okoye",
       "M'Baku",
       "Peter Quill / Star-Lord",
       "Gamora",
+      "Drax",
+      "Mantis",
       "Rocket",
       "Groot",
-      "Drax",
       "Nebula",
-      "Mantis",
       "Loki",
-      "Heimdall"
+      "Heimdall",
+      "Valkyrie",
+      "Ebony Maw",
+      "Cull Obsidian",
+      "Proxima Midnight",
+      "Corvus Glaive",
+      "Nick Fury",
+      "Maria Hill"
     ],
-    "infinityStones": [
-      "Space",
-      "Mind",
-      "Reality",
-      "Power",
-      "Time",
-      "Soul"
-    ],
-    "synopsis": "Thanos hunts the Infinity Stones, forcing heroes across Earth and space into desperate alliances. The Snap changes everything.",
-    "timelineOrder": 42,
-    "timelineYear": 2018
+    infinityStones: ["Space", "Mind", "Reality", "Power", "Time", "Soul"],
+    synopsis:
+      "Thanos hunts the Infinity Stones, forcing heroes across Earth and space into desperate alliances. The Snap changes everything.",
+    timelineOrder: 42,
+    timelineYear: 2018
   },
   {
-    "id": "endgame",
-    "title": "Avengers: Endgame",
-    "kind": "Film",
-    "phase": "Phase 3",
-    "releaseYear": 2019,
-    "releaseDate": null,
-    "timeline": "2018",
-    "timelineSort": 2018,
-    "stories": [
-      "Avengers & Allies",
-      "Infinity Stones"
-    ],
-    "characters": [
+    id: "endgame",
+    title: "Avengers: Endgame",
+    kind: "Film",
+    phase: "Phase 3",
+    releaseYear: 2019,
+    releaseDate: null,
+    timeline: "2018",
+    timelineSort: 2018,
+    stories: ["Avengers & Allies", "Infinity Stones"],
+    characters: [
       "Tony Stark / Iron Man",
       "Steve Rogers / Captain America",
       "Thor",
       "Bruce Banner / Hulk",
       "Natasha Romanoff / Black Widow",
       "Clint Barton / Hawkeye",
+      "James Rhodes / War Machine",
+      "Rocket",
+      "Nebula",
       "Scott Lang / Ant-Man",
-      "Hope van Dyne / Wasp",
       "Carol Danvers / Captain Marvel",
+      "Pepper Potts / Rescue",
       "Stephen Strange / Doctor Strange",
-      "Wong",
-      "Wanda Maximoff",
-      "Vision",
       "Peter Parker / Spider-Man",
+      "Wanda Maximoff / Scarlet Witch",
       "Sam Wilson / Falcon",
       "Bucky Barnes / Winter Soldier",
-      "James Rhodes / War Machine",
       "T'Challa / Black Panther",
       "Shuri",
       "Okoye",
-      "M'Baku",
       "Valkyrie",
-      "Korg",
-      "Pepper Potts",
       "Peter Quill / Star-Lord",
       "Gamora",
       "Drax",
       "Mantis",
       "Groot",
-      "Rocket",
-      "Nebula",
-      "Thanos"
+      "Hope van Dyne / Wasp",
+      "Hank Pym",
+      "Janet van Dyne",
+      "Nick Fury",
+      "Thanos",
+      "Loki"
     ],
-    "infinityStones": [
-      "Space",
-      "Mind",
-      "Reality",
-      "Power",
-      "Time",
-      "Soul"
-    ],
-    "synopsis": "The surviving heroes attempt a time-heist to undo the Snap, leading to the final battle and monumental sacrifices. The MCU transitions into a new era.",
-    "timelineOrder": 43,
-    "timelineYear": 2018
+    infinityStones: ["Space", "Mind", "Reality", "Power", "Time", "Soul"],
+    synopsis:
+      "The surviving heroes attempt a time-heist to undo the Snap, leading to the final battle and monumental sacrifices. The MCU transitions into a new era.",
+    timelineOrder: 43,
+    timelineYear: 2018
   },
   {
-    "id": "loki_s1",
-    "title": "Loki (Season 1)",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2012",
-    "timelineSort": 2012,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "Loki (variants)",
-      "Mobius",
-      "Ravonna Renslayer",
-      "Kang (variants)",
-      "TVA"
-    ],
-    "infinityStones": [],
-    "synopsis": "A variant Loki is recruited by the TVA and uncovers the multiverse’s fragile structure. The story opens the door to branching timelines and bigger threats.",
-    "timelineOrder": 44,
-    "timelineYear": 2012
+    id: "loki_s1",
+    title: "Loki (Season 1)",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2012",
+    timelineSort: 2012,
+    stories: ["Infinity Stones", "Multiverse/TVA"],
+    characters: ["Loki (variants)", "Mobius", "Ravonna Renslayer", "Kang (variants)", "TVA"],
+    infinityStones: [],
+    synopsis:
+      "A variant Loki is recruited by the TVA and uncovers the multiverse\u2019s fragile structure. The story opens the door to branching timelines and bigger threats.",
+    timelineOrder: 44,
+    timelineYear: 2012
   },
   {
-    "id": "whatif_s1",
-    "title": "What If…? (Season 1)",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "The Watcher",
-      "Multiple variants"
-    ],
-    "infinityStones": [],
-    "synopsis": "Animated alternate-reality stories explore how small changes create wildly different outcomes across the multiverse.",
-    "timelineOrder": 45,
-    "timelineYear": 2024
+    id: "whatif_s1",
+    title: "What If\u2026? (Season 1)",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Infinity Stones", "Multiverse/TVA"],
+    characters: ["The Watcher", "Multiple variants"],
+    infinityStones: [],
+    synopsis:
+      "Animated alternate-reality stories explore how small changes create wildly different outcomes across the multiverse.",
+    timelineOrder: 45,
+    timelineYear: 2024
   },
   {
-    "id": "wandavision",
-    "title": "WandaVision",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2023",
-    "timelineSort": 2023,
-    "stories": [
-      "Infinity Stones",
-      "Mystic/Supernatural",
-      "Witches"
-    ],
-    "characters": [
-      "Wanda Maximoff",
-      "Vision",
-      "Agatha Harkness",
-      "Monica Rambeau",
-      "S.W.O.R.D. / Hayward"
-    ],
-    "infinityStones": [
-      "Mind"
-    ],
-    "synopsis": "Wanda’s grief manifests as a sitcom reality in Westview, leading to her transformation into the Scarlet Witch. Major setup for multiverse and magic threads.",
-    "timelineOrder": 46,
-    "timelineYear": 2023
+    id: "wandavision",
+    title: "WandaVision",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2023",
+    timelineSort: 2023,
+    stories: ["Infinity Stones", "Mystic/Supernatural", "Witches"],
+    characters: ["Wanda Maximoff", "Vision", "Agatha Harkness", "Monica Rambeau", "S.W.O.R.D. / Hayward"],
+    infinityStones: ["Mind"],
+    synopsis:
+      "Wanda\u2019s grief manifests as a sitcom reality in Westview, leading to her transformation into the Scarlet Witch. Major setup for multiverse and magic threads.",
+    timelineOrder: 46,
+    timelineYear: 2023
   },
   {
-    "id": "shangchi",
-    "title": "Shang-Chi and the Legend of the Ten Rings",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
-      "Shang-Chi",
-      "Wenwu",
-      "Xialing",
-      "Katy",
-      "Trevor Slattery"
-    ],
-    "infinityStones": [],
-    "synopsis": "Shang-Chi confronts his father Wenwu and the mystery of the Ten Rings. A new hero (and a new signal) enters the MCU.",
-    "timelineOrder": 47,
-    "timelineYear": 2024
+    id: "shangchi",
+    title: "Shang-Chi and the Legend of the Ten Rings",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Avengers & Allies"],
+    characters: ["Shang-Chi", "Wenwu", "Xialing", "Katy", "Trevor Slattery"],
+    infinityStones: [],
+    synopsis:
+      "Shang-Chi confronts his father Wenwu and the mystery of the Ten Rings. A new hero (and a new signal) enters the MCU.",
+    timelineOrder: 47,
+    timelineYear: 2024
   },
   {
-    "id": "fatws",
-    "title": "The Falcon and the Winter Soldier",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Super Soldier / HYDRA"
-    ],
-    "characters": [
+    id: "fatws",
+    title: "The Falcon and the Winter Soldier",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Super Soldier / HYDRA"],
+    characters: [
       "Sam Wilson / Captain America",
       "Bucky Barnes / Winter Soldier",
       "John Walker / U.S. Agent",
@@ -1266,75 +991,57 @@ export const ITEMS = [
       "Isaiah Bradley",
       "Karli Morgenthau"
     ],
-    "infinityStones": [],
-    "synopsis": "Sam Wilson wrestles with Captain America’s legacy while facing the Flag Smashers and a re-emerging super-soldier shadow. Sam ultimately accepts the mantle.",
-    "timelineOrder": 48,
-    "timelineYear": 2024
+    infinityStones: [],
+    synopsis:
+      "Sam Wilson wrestles with Captain America\u2019s legacy while facing the Flag Smashers and a re-emerging super-soldier shadow. Sam ultimately accepts the mantle.",
+    timelineOrder: 48,
+    timelineYear: 2024
   },
   {
-    "id": "farfromhome",
-    "title": "Spider-Man: Far From Home",
-    "kind": "Film",
-    "phase": "Phase 3 (Epilogue)",
-    "releaseYear": 2019,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Peter Parker / Spider-Man",
-      "Ned Leeds",
-      "MJ",
-      "Mysterio",
-      "Nick Fury"
-    ],
-    "infinityStones": [],
-    "synopsis": "Peter travels to Europe and battles Mysterio’s illusion war. The ending exposes Spider-Man’s identity and propels the next film’s crisis.",
-    "timelineOrder": 49,
-    "timelineYear": 2024
+    id: "farfromhome",
+    title: "Spider-Man: Far From Home",
+    kind: "Film",
+    phase: "Phase 3 (Epilogue)",
+    releaseYear: 2019,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Other"],
+    characters: ["Peter Parker / Spider-Man", "Ned Leeds", "MJ", "Mysterio", "Nick Fury"],
+    infinityStones: [],
+    synopsis:
+      "Peter travels to Europe and battles Mysterio\u2019s illusion war. The ending exposes Spider-Man\u2019s identity and propels the next film\u2019s crisis.",
+    timelineOrder: 49,
+    timelineYear: 2024
   },
   {
-    "id": "eternals",
-    "title": "Eternals",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Cosmic"
-    ],
-    "characters": [
-      "Sersi",
-      "Ikaris",
-      "Thena",
-      "Kingo",
-      "Sprite",
-      "Ajak",
-      "Kro",
-      "Arishem"
-    ],
-    "infinityStones": [],
-    "synopsis": "Immortal Eternals reunite to stop a Celestial Emergence, revealing cosmic history and putting Earth on larger interstellar radar.",
-    "timelineOrder": 50,
-    "timelineYear": 2024
+    id: "eternals",
+    title: "Eternals",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Cosmic"],
+    characters: ["Sersi", "Ikaris", "Thena", "Kingo", "Sprite", "Ajak", "Kro", "Arishem"],
+    infinityStones: [],
+    synopsis:
+      "Immortal Eternals reunite to stop a Celestial Emergence, revealing cosmic history and putting Earth on larger interstellar radar.",
+    timelineOrder: 50,
+    timelineYear: 2024
   },
   {
-    "id": "spiderman_nwh",
-    "title": "Spider-Man: No Way Home",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Multiverse/TVA"
-    ],
-    "characters": [
+    id: "spiderman_nwh",
+    title: "Spider-Man: No Way Home",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Multiverse/TVA"],
+    characters: [
       "Peter Parker / Spider-Man",
       "Ned Leeds",
       "MJ",
@@ -1343,515 +1050,390 @@ export const ITEMS = [
       "Doctor Octopus",
       "Electro"
     ],
-    "infinityStones": [],
-    "synopsis": "Peter Parker’s identity crisis spirals into multiversal chaos after a spell goes wrong, bringing in legacy Spider-Man villains and allies. Peter makes a world-altering sacrifice to protect everyone.",
-    "timelineOrder": 50.5,
-    "timelineYear": 2024
+    infinityStones: [],
+    synopsis:
+      "Peter Parker\u2019s identity crisis spirals into multiversal chaos after a spell goes wrong, bringing in legacy Spider-Man villains and allies. Peter makes a world-altering sacrifice to protect everyone.",
+    timelineOrder: 50.5,
+    timelineYear: 2024
   },
   {
-    "id": "drstrange2",
-    "title": "Doctor Strange in the Multiverse of Madness",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA",
-      "Mystic/Supernatural"
-    ],
-    "characters": [
-      "Stephen Strange / Doctor Strange",
-      "Wanda Maximoff / Scarlet Witch",
-      "America Chavez",
-      "Wong"
-    ],
-    "infinityStones": [],
-    "synopsis": "Strange and America Chavez navigate dangerous universes while Wanda’s quest spirals. The multiverse becomes personal—and costly.",
-    "timelineOrder": 51,
-    "timelineYear": 2024
+    id: "drstrange2",
+    title: "Doctor Strange in the Multiverse of Madness",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Infinity Stones", "Multiverse/TVA", "Mystic/Supernatural"],
+    characters: ["Stephen Strange / Doctor Strange", "Wanda Maximoff / Scarlet Witch", "America Chavez", "Wong"],
+    infinityStones: [],
+    synopsis:
+      "Strange and America Chavez navigate dangerous universes while Wanda\u2019s quest spirals. The multiverse becomes personal\u2014and costly.",
+    timelineOrder: 51,
+    timelineYear: 2024
   },
   {
-    "id": "hawkeye",
-    "title": "Hawkeye",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2021,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
+    id: "hawkeye",
+    title: "Hawkeye",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2021,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Other"],
+    characters: [
       "Clint Barton / Hawkeye",
       "Kate Bishop",
       "Yelena Belova",
       "Maya Lopez / Echo",
       "Wilson Fisk / Kingpin"
     ],
-    "infinityStones": [],
-    "synopsis": "Clint Barton teams with Kate Bishop in a holiday-time street adventure involving the Tracksuit Mafia and Kingpin’s return.",
-    "timelineOrder": 52,
-    "timelineYear": 2024
+    infinityStones: [],
+    synopsis:
+      "Clint Barton teams with Kate Bishop in a holiday-time street adventure involving the Tracksuit Mafia and Kingpin\u2019s return.",
+    timelineOrder: 52,
+    timelineYear: 2024
   },
   {
-    "id": "moonknight",
-    "title": "Moon Knight",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Mystic/Supernatural"
-    ],
-    "characters": [
-      "Marc Spector / Moon Knight",
-      "Steven Grant",
-      "Khonshu",
-      "Arthur Harrow"
-    ],
-    "infinityStones": [],
-    "synopsis": "Marc Spector / Steven Grant navigate dissociative identity disorder and Egyptian gods, becoming Moon Knight amid a supernatural showdown.",
-    "timelineOrder": 53,
-    "timelineYear": 2025
+    id: "moonknight",
+    title: "Moon Knight",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Mystic/Supernatural"],
+    characters: ["Marc Spector / Moon Knight", "Steven Grant", "Khonshu", "Arthur Harrow"],
+    infinityStones: [],
+    synopsis:
+      "Marc Spector / Steven Grant navigate dissociative identity disorder and Egyptian gods, becoming Moon Knight amid a supernatural showdown.",
+    timelineOrder: 53,
+    timelineYear: 2025
   },
   {
-    "id": "wakandaforever",
-    "title": "Black Panther: Wakanda Forever",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Wakanda"
-    ],
-    "characters": [
-      "Shuri",
-      "Okoye",
-      "Nakia",
-      "Ramonda",
-      "Namor",
-      "Riri Williams / Ironheart"
-    ],
-    "infinityStones": [],
-    "synopsis": "Wakanda mourns T’Challa while confronting Namor and Talokan. Shuri’s journey and new alliances shape Wakanda’s future.",
-    "timelineOrder": 54,
-    "timelineYear": 2025
+    id: "wakandaforever",
+    title: "Black Panther: Wakanda Forever",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Wakanda"],
+    characters: ["Shuri", "Okoye", "Nakia", "Ramonda", "Namor", "Riri Williams / Ironheart"],
+    infinityStones: [],
+    synopsis:
+      "Wakanda mourns T\u2019Challa while confronting Namor and Talokan. Shuri\u2019s journey and new alliances shape Wakanda\u2019s future.",
+    timelineOrder: 54,
+    timelineYear: 2025
   },
   {
-    "id": "echo",
-    "title": "Echo",
-    "kind": "Series",
-    "phase": "Phase 5 (Spotlight)",
-    "releaseYear": 2024,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Maya Lopez / Echo",
-      "Wilson Fisk / Kingpin",
-      "Matt Murdock / Daredevil"
-    ],
-    "infinityStones": [],
-    "synopsis": "Maya Lopez returns home and faces Kingpin’s influence while reconnecting with her roots. A grounded bridge into the next street-level chapter.",
-    "timelineOrder": 55,
-    "timelineYear": 2025
+    id: "echo",
+    title: "Echo",
+    kind: "Series",
+    phase: "Phase 5 (Spotlight)",
+    releaseYear: 2024,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Street-level"],
+    characters: ["Maya Lopez / Echo", "Wilson Fisk / Kingpin", "Matt Murdock / Daredevil"],
+    infinityStones: [],
+    synopsis:
+      "Maya Lopez returns home and faces Kingpin\u2019s influence while reconnecting with her roots. A grounded bridge into the next street-level chapter.",
+    timelineOrder: 55,
+    timelineYear: 2025
   },
   {
-    "id": "shehulk",
-    "title": "She-Hulk: Attorney at Law",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
+    id: "shehulk",
+    title: "She-Hulk: Attorney at Law",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Avengers & Allies"],
+    characters: [
       "Jennifer Walters / She-Hulk",
       "Bruce Banner / Hulk",
       "Matt Murdock / Daredevil",
       "Emil Blonsky / Abomination"
     ],
-    "infinityStones": [],
-    "synopsis": "Jennifer Walters balances superhero law and sudden Hulk powers, meeting a rotating cast of MCU characters (including Daredevil).",
-    "timelineOrder": 56,
-    "timelineYear": 2025
+    infinityStones: [],
+    synopsis:
+      "Jennifer Walters balances superhero law and sudden Hulk powers, meeting a rotating cast of MCU characters (including Daredevil).",
+    timelineOrder: 56,
+    timelineYear: 2025
   },
   {
-    "id": "msmarvel",
-    "title": "Ms. Marvel",
-    "kind": "Series",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Kamala Khan / Ms. Marvel",
-      "Bruno Carrelli",
-      "Najma",
-      "Aamir Khan"
-    ],
-    "infinityStones": [],
-    "synopsis": "Kamala Khan becomes Ms. Marvel, discovering family history and unusual powers that tie into larger cosmic threads.",
-    "timelineOrder": 57,
-    "timelineYear": 2025
+    id: "msmarvel",
+    title: "Ms. Marvel",
+    kind: "Series",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Other"],
+    characters: ["Kamala Khan / Ms. Marvel", "Bruno Carrelli", "Najma", "Aamir Khan"],
+    infinityStones: [],
+    synopsis:
+      "Kamala Khan becomes Ms. Marvel, discovering family history and unusual powers that tie into larger cosmic threads.",
+    timelineOrder: 57,
+    timelineYear: 2025
   },
   {
-    "id": "thor4",
-    "title": "Thor: Love and Thunder",
-    "kind": "Film",
-    "phase": "Phase 4",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Asgard"
-    ],
-    "characters": [
-      "Thor",
-      "Jane Foster / Mighty Thor",
-      "Valkyrie",
-      "Gorr",
-      "Korg"
-    ],
-    "infinityStones": [],
-    "synopsis": "Thor confronts Gorr the God Butcher and reunites with Jane Foster—now wielding Mjolnir as the Mighty Thor.",
-    "timelineOrder": 58,
-    "timelineYear": 2025
+    id: "thor4",
+    title: "Thor: Love and Thunder",
+    kind: "Film",
+    phase: "Phase 4",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Asgard"],
+    characters: ["Thor", "Jane Foster / Mighty Thor", "Valkyrie", "Gorr", "Korg"],
+    infinityStones: [],
+    synopsis:
+      "Thor confronts Gorr the God Butcher and reunites with Jane Foster\u2014now wielding Mjolnir as the Mighty Thor.",
+    timelineOrder: 58,
+    timelineYear: 2025
   },
   {
-    "id": "ironheart",
-    "title": "Ironheart",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Riri Williams / Ironheart",
-      "Parker Robbins / The Hood"
-    ],
-    "infinityStones": [],
-    "synopsis": "Riri Williams steps into the spotlight, blending cutting-edge armor tech with new challenges that test what it means to be a hero.",
-    "timelineOrder": 59,
-    "timelineYear": 2025
+    id: "ironheart",
+    title: "Ironheart",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Other"],
+    characters: ["Riri Williams / Ironheart", "Parker Robbins / The Hood"],
+    infinityStones: [],
+    synopsis:
+      "Riri Williams steps into the spotlight, blending cutting-edge armor tech with new challenges that test what it means to be a hero.",
+    timelineOrder: 59,
+    timelineYear: 2025
   },
   {
-    "id": "werewolf",
-    "title": "Werewolf By Night",
-    "kind": "Special",
-    "phase": "Special Presentation",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2022",
-    "timelineSort": 2022,
-    "stories": [
-      "Mystic/Supernatural"
-    ],
-    "characters": [
-      "Jack Russell / Werewolf by Night",
-      "Elsa Bloodstone",
-      "Man-Thing"
-    ],
-    "infinityStones": [],
-    "synopsis": "A black-and-white monster tale introducing MCU supernatural corners through a deadly hunt and surprising alliances.",
-    "timelineOrder": 60,
-    "timelineYear": 2022
+    id: "werewolf",
+    title: "Werewolf By Night",
+    kind: "Special",
+    phase: "Special Presentation",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2022",
+    timelineSort: 2022,
+    stories: ["Mystic/Supernatural"],
+    characters: ["Jack Russell / Werewolf by Night", "Elsa Bloodstone", "Man-Thing"],
+    infinityStones: [],
+    synopsis:
+      "A black-and-white monster tale introducing MCU supernatural corners through a deadly hunt and surprising alliances.",
+    timelineOrder: 60,
+    timelineYear: 2022
   },
   {
-    "id": "gotgholiday",
-    "title": "The Guardians of the Galaxy Holiday Special",
-    "kind": "Special",
-    "phase": "Special Presentation",
-    "releaseYear": 2022,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Cosmic",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Peter Quill / Star-Lord",
-      "Mantis",
-      "Drax",
-      "Rocket",
-      "Groot"
-    ],
-    "infinityStones": [],
-    "synopsis": "The Guardians try to cheer up Peter Quill with a holiday ‘gift’—a heartfelt epilogue that sets the stage for Vol. 3.",
-    "timelineOrder": 61,
-    "timelineYear": 2025
+    id: "gotgholiday",
+    title: "The Guardians of the Galaxy Holiday Special",
+    kind: "Special",
+    phase: "Special Presentation",
+    releaseYear: 2022,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Cosmic", "Infinity Stones"],
+    characters: ["Peter Quill / Star-Lord", "Mantis", "Drax", "Rocket", "Groot"],
+    infinityStones: [],
+    synopsis:
+      "The Guardians try to cheer up Peter Quill with a holiday \u2018gift\u2019\u2014a heartfelt epilogue that sets the stage for Vol. 3.",
+    timelineOrder: 61,
+    timelineYear: 2025
   },
   {
-    "id": "quantumania",
-    "title": "Ant-Man and the Wasp: Quantumania",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Quantum Realm",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Scott Lang / Ant-Man",
-      "Hope van Dyne / Wasp",
-      "Kang (variants)",
-      "Cassie Lang",
-      "Janet van Dyne"
-    ],
-    "infinityStones": [
-      "Time"
-    ],
-    "synopsis": "Scott and family are pulled into the Quantum Realm, confronting Kang and larger multiversal stakes. A major Phase 5 inflection point.",
-    "timelineOrder": 62,
-    "timelineYear": 2025
+    id: "quantumania",
+    title: "Ant-Man and the Wasp: Quantumania",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Quantum Realm", "Infinity Stones"],
+    characters: ["Scott Lang / Ant-Man", "Hope van Dyne / Wasp", "Kang (variants)", "Cassie Lang", "Janet van Dyne"],
+    infinityStones: ["Time"],
+    synopsis:
+      "Scott and family are pulled into the Quantum Realm, confronting Kang and larger multiversal stakes. A major Phase 5 inflection point.",
+    timelineOrder: 62,
+    timelineYear: 2025
   },
   {
-    "id": "gotg3",
-    "title": "Guardians of the Galaxy Vol. 3",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Cosmic",
-      "Infinity Stones"
-    ],
-    "characters": [
-      "Rocket",
-      "Peter Quill / Star-Lord",
-      "Gamora",
-      "Drax",
-      "Nebula",
-      "High Evolutionary",
-      "Groot"
-    ],
-    "infinityStones": [],
-    "synopsis": "The Guardians fight to save Rocket’s life and face the High Evolutionary, culminating in a defining farewell and new team formation.",
-    "timelineOrder": 63,
-    "timelineYear": 2025
+    id: "gotg3",
+    title: "Guardians of the Galaxy Vol. 3",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Cosmic", "Infinity Stones"],
+    characters: ["Rocket", "Peter Quill / Star-Lord", "Gamora", "Drax", "Nebula", "High Evolutionary", "Groot"],
+    infinityStones: [],
+    synopsis:
+      "The Guardians fight to save Rocket\u2019s life and face the High Evolutionary, culminating in a defining farewell and new team formation.",
+    timelineOrder: 63,
+    timelineYear: 2025
   },
   {
-    "id": "secretinvasion",
-    "title": "Secret Invasion",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Skrulls"
-    ],
-    "characters": [
-      "Nick Fury",
-      "Talos",
-      "Gravik",
-      "Maria Hill"
-    ],
-    "infinityStones": [],
-    "synopsis": "Nick Fury confronts a Skrull infiltration crisis on Earth, testing trust, identity, and the cost of secrecy.",
-    "timelineOrder": 64,
-    "timelineYear": 2025
+    id: "secretinvasion",
+    title: "Secret Invasion",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Skrulls"],
+    characters: ["Nick Fury", "Talos", "Gravik", "Maria Hill"],
+    infinityStones: [],
+    synopsis:
+      "Nick Fury confronts a Skrull infiltration crisis on Earth, testing trust, identity, and the cost of secrecy.",
+    timelineOrder: 64,
+    timelineYear: 2025
   },
   {
-    "id": "themarvels",
-    "title": "The Marvels",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Cosmic"
-    ],
-    "characters": [
-      "Carol Danvers / Captain Marvel",
-      "Kamala Khan / Ms. Marvel",
-      "Monica Rambeau",
-      "Nick Fury"
-    ],
-    "infinityStones": [],
-    "synopsis": "Carol Danvers, Kamala Khan, and Monica Rambeau swap places when they use their powers, forcing a chaotic team-up with cosmic consequences.",
-    "timelineOrder": 65,
-    "timelineYear": 2025
+    id: "themarvels",
+    title: "The Marvels",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Cosmic"],
+    characters: ["Carol Danvers / Captain Marvel", "Kamala Khan / Ms. Marvel", "Monica Rambeau", "Nick Fury"],
+    infinityStones: [],
+    synopsis:
+      "Carol Danvers, Kamala Khan, and Monica Rambeau swap places when they use their powers, forcing a chaotic team-up with cosmic consequences.",
+    timelineOrder: 65,
+    timelineYear: 2025
   },
   {
-    "id": "loki_s2",
-    "title": "Loki (Season 2)",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2012",
-    "timelineSort": 2012,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "Loki (variants)",
-      "Mobius",
-      "Kang (variants)",
-      "TVA"
-    ],
-    "infinityStones": [],
-    "synopsis": "Loki and the TVA grapple with time-slipping and the multiverse’s instability, pushing Loki toward a defining choice about control vs. freedom.",
-    "timelineOrder": 66,
-    "timelineYear": 2012
+    id: "loki_s2",
+    title: "Loki (Season 2)",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2012",
+    timelineSort: 2012,
+    stories: ["Infinity Stones", "Multiverse/TVA"],
+    characters: ["Loki (variants)", "Mobius", "Kang (variants)", "TVA"],
+    infinityStones: [],
+    synopsis:
+      "Loki and the TVA grapple with time-slipping and the multiverse\u2019s instability, pushing Loki toward a defining choice about control vs. freedom.",
+    timelineOrder: 66,
+    timelineYear: 2012
   },
   {
-    "id": "whatif_s2",
-    "title": "What If…? (Season 2)",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2023,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "The Watcher",
-      "Multiple variants"
-    ],
-    "infinityStones": [],
-    "synopsis": "More animated alternate-world stories expand the multiverse sandbox and recurring crossover threads.",
-    "timelineOrder": 67,
-    "timelineYear": 2024
+    id: "whatif_s2",
+    title: "What If\u2026? (Season 2)",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2023,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Infinity Stones", "Multiverse/TVA"],
+    characters: ["The Watcher", "Multiple variants"],
+    infinityStones: [],
+    synopsis: "More animated alternate-world stories expand the multiverse sandbox and recurring crossover threads.",
+    timelineOrder: 67,
+    timelineYear: 2024
   },
   {
-    "id": "deadpool3",
-    "title": "Deadpool & Wolverine",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2024,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "Wade Wilson / Deadpool",
-      "Logan / Wolverine",
-      "TVA"
-    ],
-    "infinityStones": [],
-    "synopsis": "Deadpool collides with the TVA/multiverse chaos and teams up with Wolverine, colliding meta-comedy with multiversal consequences.",
-    "timelineOrder": 68,
-    "timelineYear": 2024
+    id: "deadpool3",
+    title: "Deadpool & Wolverine",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2024,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Multiverse/TVA"],
+    characters: ["Wade Wilson / Deadpool", "Logan / Wolverine", "TVA"],
+    infinityStones: [],
+    synopsis:
+      "Deadpool collides with the TVA/multiverse chaos and teams up with Wolverine, colliding meta-comedy with multiversal consequences.",
+    timelineOrder: 68,
+    timelineYear: 2024
   },
   {
-    "id": "agatha",
-    "title": "Agatha All Along",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2024,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Mystic/Supernatural",
-      "Witches"
-    ],
-    "characters": [
-      "Agatha Harkness",
-      "Wiccan / Billy Maximoff"
-    ],
-    "infinityStones": [],
-    "synopsis": "Agatha Harkness returns in a spell-soaked story that digs into witchcraft, identity, and the fallout of Westview.",
-    "timelineOrder": 69,
-    "timelineYear": 2024
+    id: "agatha",
+    title: "Agatha All Along",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2024,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Mystic/Supernatural", "Witches"],
+    characters: ["Agatha Harkness", "Wiccan / Billy Maximoff"],
+    infinityStones: [],
+    synopsis:
+      "Agatha Harkness returns in a spell-soaked story that digs into witchcraft, identity, and the fallout of Westview.",
+    timelineOrder: 69,
+    timelineYear: 2024
   },
   {
-    "id": "whatif_s3",
-    "title": "What If…? (Season 3)",
-    "kind": "Series",
-    "phase": "Phase 5/6",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2024",
-    "timelineSort": 2024,
-    "stories": [
-      "Infinity Stones",
-      "Multiverse/TVA"
-    ],
-    "characters": [
-      "The Watcher",
-      "Multiple variants"
-    ],
-    "infinityStones": [],
-    "synopsis": "A third season of multiverse tales—bigger mashups, stranger branching timelines, and more ‘what could have been’ scenarios.",
-    "timelineOrder": 70,
-    "timelineYear": 2024
+    id: "whatif_s3",
+    title: "What If\u2026? (Season 3)",
+    kind: "Series",
+    phase: "Phase 5/6",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2024",
+    timelineSort: 2024,
+    stories: ["Infinity Stones", "Multiverse/TVA"],
+    characters: ["The Watcher", "Multiple variants"],
+    infinityStones: [],
+    synopsis:
+      "A third season of multiverse tales\u2014bigger mashups, stranger branching timelines, and more \u2018what could have been\u2019 scenarios.",
+    timelineOrder: 70,
+    timelineYear: 2024
   },
   {
-    "id": "dd_bornagain",
-    "title": "Daredevil: Born Again (Season 1)",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2026",
-    "timelineSort": 2026,
-    "stories": [
-      "Street-level"
-    ],
-    "characters": [
-      "Matt Murdock / Daredevil",
-      "Wilson Fisk / Kingpin"
-    ],
-    "infinityStones": [],
-    "synopsis": "Matt Murdock’s story continues in the Marvel Studios era, rebuilding the street-level corner with familiar faces and new threats.",
-    "timelineOrder": 71,
-    "timelineYear": 2026
+    id: "dd_bornagain",
+    title: "Daredevil: Born Again (Season 1)",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2026",
+    timelineSort: 2026,
+    stories: ["Street-level"],
+    characters: ["Matt Murdock / Daredevil", "Wilson Fisk / Kingpin"],
+    infinityStones: [],
+    synopsis:
+      "Matt Murdock\u2019s story continues in the Marvel Studios era, rebuilding the street-level corner with familiar faces and new threats.",
+    timelineOrder: 71,
+    timelineYear: 2026
   },
   {
-    "id": "cap4",
-    "title": "Captain America: Brave New World",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2026",
-    "timelineSort": 2026,
-    "stories": [
-      "Avengers & Allies",
-      "Super Soldier / HYDRA"
-    ],
-    "characters": [
+    id: "cap4",
+    title: "Captain America: Brave New World",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2026",
+    timelineSort: 2026,
+    stories: ["Avengers & Allies", "Super Soldier / HYDRA"],
+    characters: [
       "Sam Wilson / Captain America",
       "Joaquin Torres / Falcon",
       "Bucky Barnes / Winter Soldier",
@@ -1859,24 +1441,23 @@ export const ITEMS = [
       "Samuel Sterns / Leader",
       "Isaiah Bradley"
     ],
-    "infinityStones": [],
-    "synopsis": "Sam Wilson’s first big-screen chapter as Captain America, navigating geopolitical pressure and emerging superhuman threats.",
-    "timelineOrder": 72,
-    "timelineYear": 2026
+    infinityStones: [],
+    synopsis:
+      "Sam Wilson\u2019s first big-screen chapter as Captain America, navigating geopolitical pressure and emerging superhuman threats.",
+    timelineOrder: 72,
+    timelineYear: 2026
   },
   {
-    "id": "thunderbolts",
-    "title": "Thunderbolts*",
-    "kind": "Film",
-    "phase": "Phase 5",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2027",
-    "timelineSort": 2027,
-    "stories": [
-      "Avengers & Allies"
-    ],
-    "characters": [
+    id: "thunderbolts",
+    title: "Thunderbolts*",
+    kind: "Film",
+    phase: "Phase 5",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2027",
+    timelineSort: 2027,
+    stories: ["Avengers & Allies"],
+    characters: [
       "Yelena Belova",
       "Bucky Barnes / Winter Soldier",
       "Alexei Shostakov / Red Guardian",
@@ -1885,74 +1466,66 @@ export const ITEMS = [
       "Valentina Allegra de Fontaine",
       "Bob / Sentry"
     ],
-    "infinityStones": [],
-    "synopsis": "A volatile team of antiheroes and government assets is assembled for missions the Avengers won’t—or can’t—do.",
-    "timelineOrder": 73,
-    "timelineYear": 2027
+    infinityStones: [],
+    synopsis:
+      "A volatile team of antiheroes and government assets is assembled for missions the Avengers won\u2019t\u2014or can\u2019t\u2014do.",
+    timelineOrder: 73,
+    timelineYear: 2027
   },
   {
-    "id": "ff_firststeps",
-    "title": "The Fantastic Four: First Steps",
-    "kind": "Film",
-    "phase": "Phase 6",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2025",
-    "timelineSort": 2025,
-    "stories": [
-      "Fantastic Four"
-    ],
-    "characters": [
+    id: "ff_firststeps",
+    title: "The Fantastic Four: First Steps",
+    kind: "Film",
+    phase: "Phase 6",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2025",
+    timelineSort: 2025,
+    stories: ["Fantastic Four"],
+    characters: [
       "Reed Richards / Mister Fantastic",
       "Sue Storm / Invisible Woman",
       "Johnny Storm / Human Torch",
       "Ben Grimm / The Thing"
     ],
-    "infinityStones": [],
-    "synopsis": "Marvel’s First Family joins the MCU with a 1960s-inspired, retro-futuristic vibe and a new cornerstone team for Phase 6.",
-    "timelineOrder": 74,
-    "timelineYear": 2025
+    infinityStones: [],
+    synopsis:
+      "Marvel\u2019s First Family joins the MCU with a 1960s-inspired, retro-futuristic vibe and a new cornerstone team for Phase 6.",
+    timelineOrder: 74,
+    timelineYear: 2025
   },
   {
-    "id": "marvel_zombies",
-    "title": "Marvel Zombies",
-    "kind": "Series",
-    "phase": "Phase 6",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2023",
-    "timelineSort": 2023,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Survivors (alt reality)",
-      "Zombie heroes (alt reality)"
-    ],
-    "infinityStones": [],
-    "synopsis": "Animated continuation of the zombie outbreak reality first seen in What If…?—survivors face a world where heroes and villains alike can become the undead threat.",
-    "timelineOrder": 9999,
-    "timelineYear": 2023
+    id: "marvel_zombies",
+    title: "Marvel Zombies",
+    kind: "Series",
+    phase: "Phase 6",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2023",
+    timelineSort: 2023,
+    stories: ["Other"],
+    characters: ["Survivors (alt reality)", "Zombie heroes (alt reality)"],
+    infinityStones: [],
+    synopsis:
+      "Animated continuation of the zombie outbreak reality first seen in What If\u2026?\u2014survivors face a world where heroes and villains alike can become the undead threat.",
+    timelineOrder: 9999,
+    timelineYear: 2023
   },
   {
-    "id": "yfn_spiderman_s1",
-    "title": "Your Friendly Neighborhood Spider-Man (Season 1)",
-    "kind": "Series",
-    "phase": "Phase 5",
-    "releaseYear": 2025,
-    "releaseDate": null,
-    "timeline": "2016",
-    "timelineSort": 2016,
-    "stories": [
-      "Other"
-    ],
-    "characters": [
-      "Peter Parker / Spider-Man",
-      "Norman Osborn"
-    ],
-    "infinityStones": [],
-    "synopsis": "Animated, alternate take on Peter’s early hero days—balancing school, new allies, and street-level threats while learning what kind of Spider-Man he wants to be.",
-    "timelineOrder": 9999,
-    "timelineYear": 2016
+    id: "yfn_spiderman_s1",
+    title: "Your Friendly Neighborhood Spider-Man (Season 1)",
+    kind: "Series",
+    phase: "Phase 5",
+    releaseYear: 2025,
+    releaseDate: null,
+    timeline: "2016",
+    timelineSort: 2016,
+    stories: ["Other"],
+    characters: ["Peter Parker / Spider-Man", "Norman Osborn"],
+    infinityStones: [],
+    synopsis:
+      "Animated, alternate take on Peter\u2019s early hero days\u2014balancing school, new allies, and street-level threats while learning what kind of Spider-Man he wants to be.",
+    timelineOrder: 9999,
+    timelineYear: 2016
   }
-] as const;
+];

@@ -82,9 +82,14 @@
         if (view.value === 'release') {
             arr.sort((a, b) => (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title)));
         } else {
-            arr.sort((a, b) => (a.timelineOrder - b.timelineOrder) || (a.timelineYear - b.timelineYear) || (a.releaseYear - b.releaseYear) || (a.title.localeCompare(b.title))));
-    }
-    return arr;
+            arr.sort((a, b) =>
+                (a.timelineOrder - b.timelineOrder) ||
+                (a.timelineYear - b.timelineYear) ||
+                (a.releaseYear - b.releaseYear) ||
+                a.title.localeCompare(b.title)
+            );
+        }
+        return arr;
     })
 
     function chipToggleCharacter(c: string) {

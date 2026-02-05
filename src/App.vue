@@ -246,7 +246,7 @@ watch(theme, (t) => {
               @click="chipToggleCharacter(c)" role="button" tabindex="0">
               {{ c }}
             </span>
-            <span v-if="<span v-if="it.characters.length > 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
+            <span v-if="it.characters.length > 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
           </div>
         </div>
       </div>

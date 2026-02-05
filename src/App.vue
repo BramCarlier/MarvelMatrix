@@ -269,7 +269,7 @@
                         <span v-for="c in isExpanded(it.id) ? it.characters : it.characters.slice(0,18)" :key="it.id+c" class="chip" :class="{active: state.chars.has(c)}" @click="chipToggleCharacter(c)" role="button" tabindex="0">
                             {{ c }}
                         </span>
-                        <span v-if="<span v-if=" it.characters.length> 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
+                        <span v-if="it.characters.length> 18" class="small" style="cursor:pointer" @click="toggleExpanded(it.id)">{{ isExpanded(it.id) ? 'Show less' : '+ ' + (it.characters.length - 18) + ' more' }}</span>
                     </div>
                 </div>
             </div>

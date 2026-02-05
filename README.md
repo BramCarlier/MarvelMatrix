@@ -39,7 +39,7 @@ This repo includes a GitHub Actions workflow that builds and deploys automatical
 
 `vite.config.ts` uses the repo name automatically during GitHub Actions build:
 
--  Locally it assumes `/mcu-recap-timeline/`
+-  Locally it assumes `/MarvelMatrix/`
 -  On GitHub Pages it becomes `/<your-repo-name>/` automatically
 
 If you ever want to hardcode the base path, edit:
